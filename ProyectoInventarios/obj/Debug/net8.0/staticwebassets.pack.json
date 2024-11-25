@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoInventarios.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProyectoInventarios.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\048f9c9b-cbb9-4c64-8ca7-5a2536851b0e.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\048f9c9b-cbb9-4c64-8ca7-5a2536851b0e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\098c0167-7d0e-4f1a-bf88-124358c4abef.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\098c0167-7d0e-4f1a-bf88-124358c4abef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\17a117b8-a528-47af-8afc-a773e9cba715.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\17a117b8-a528-47af-8afc-a773e9cba715.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\20be464d-143c-4c55-aba3-667360961ae6.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\20be464d-143c-4c55-aba3-667360961ae6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\231e5e5b-8f47-43cd-857a-2dd2cf7f6c55.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\231e5e5b-8f47-43cd-857a-2dd2cf7f6c55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\276e903e-fc02-4c74-a959-945f1110319e.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\276e903e-fc02-4c74-a959-945f1110319e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\2962a03e-0392-4aff-9926-938d7cba9bd2.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\2962a03e-0392-4aff-9926-938d7cba9bd2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\319bfa01-b169-48ac-810b-ae9899b912e8.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\319bfa01-b169-48ac-810b-ae9899b912e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\685038a4-1c16-42d7-a7f3-79474895af1b.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\685038a4-1c16-42d7-a7f3-79474895af1b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\6fc64763-7672-4dbf-b333-cf595c8f3352.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\6fc64763-7672-4dbf-b333-cf595c8f3352.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\72a3f63d-65c2-425b-b297-1ec944c10439.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\72a3f63d-65c2-425b-b297-1ec944c10439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\7827c67c-39e1-4b4b-9b7a-a9b56b96270e.png",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\7827c67c-39e1-4b4b-9b7a-a9b56b96270e.png"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\793e3f6b-c8ac-4235-9ad5-4a7360de0da7.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\793e3f6b-c8ac-4235-9ad5-4a7360de0da7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\7efaa86a-0325-41f1-ade8-788996e4a9a2.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\7efaa86a-0325-41f1-ade8-788996e4a9a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\86d623a6-746f-42ba-80a5-4ac9a071d0bb.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\86d623a6-746f-42ba-80a5-4ac9a071d0bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\8f2e5195-bab8-4f96-b65a-778592ce3015.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\8f2e5195-bab8-4f96-b65a-778592ce3015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\9dbb4d5e-0f19-4d77-b944-55ae99a89fd8.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\9dbb4d5e-0f19-4d77-b944-55ae99a89fd8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\9ee6fc31-dfde-4c4f-bfa4-9c1e117f9b6f.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\9ee6fc31-dfde-4c4f-bfa4-9c1e117f9b6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\a424dc50-36af-4ef9-b6f3-ff134c819aac.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a424dc50-36af-4ef9-b6f3-ff134c819aac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\b16f069b-e467-49ec-993b-570f5dbfcf92.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\b16f069b-e467-49ec-993b-570f5dbfcf92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\bdd1ace6-45c3-4077-8bb2-5f8eaa0f4306.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\bdd1ace6-45c3-4077-8bb2-5f8eaa0f4306.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\c621d7e9-aada-479f-bbc6-eab646bc871a.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\c621d7e9-aada-479f-bbc6-eab646bc871a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\cadcb178-d9fc-4ad1-8490-fafaedd4f067.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\cadcb178-d9fc-4ad1-8490-fafaedd4f067.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\caebdb7b-6f6f-49c9-9f15-ffe765d85087.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\caebdb7b-6f6f-49c9-9f15-ffe765d85087.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\d6709eb4-c7f0-4c9f-9295-312d01b14685.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\d6709eb4-c7f0-4c9f-9295-312d01b14685.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\dd606b1e-6590-4edc-a5c3-6c0efd7b1eb1.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\dd606b1e-6590-4edc-a5c3-6c0efd7b1eb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\e4be2ec2-1ab2-4221-bd92-d8f63254ab73.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\e4be2ec2-1ab2-4221-bd92-d8f63254ab73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\imagenes\\producto\\f1223ef9-5c20-47c9-83d5-843460be654e.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\f1223ef9-5c20-47c9-83d5-843460be654e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\js\\bodega.js",
+      "PackagePath": "staticwebassets\\js\\bodega.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\js\\marca.js",
+      "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProyectoInventarios.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProyectoInventarios.props",
+      "PackagePath": "build\\ProyectoInventarios.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoInventarios.props",
+      "PackagePath": "buildMultiTargeting\\ProyectoInventarios.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProyectoInventarios.props",
+      "PackagePath": "buildTransitive\\ProyectoInventarios.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

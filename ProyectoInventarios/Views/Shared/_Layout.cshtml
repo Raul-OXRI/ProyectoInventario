@@ -1,0 +1,104 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en" data-theme="darck">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProyectoInventarios</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProyectoInventarios.styles.css" asp-append-version="true" />
+    <link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toast-css/1.1.0/grid.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+    <!--stylos de tailwind y daisyUI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--TIPO DE LETRA-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-gray-200 min-h-screen">
+    <header>
+        <nav class="navbar bg-neutral shadow-lg mb-3">
+            <div class="container mx-auto flex justify-between items-center">
+                <!-- Logo -->
+                <a class="btn btn-ghost normal-case text-xl text-white" asp-area="" asp-controller="Home" asp-action="Index">ProyectoInventarios</a>
+
+                <!-- Botón para menú móvil -->
+                <div class="flex-none lg:hidden">
+                    <button class="btn btn-square btn-ghost" onclick="toggleNavbar()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 6h14M3 10h14m-7 4h7" />
+                        </svg>
+                    </button>
+                </div>
+
+
+
+                <!-- Menú de navegación -->
+                <div id="navbar-menu" class="hidden lg:flex flex-grow items-center justify-between">
+                    <ul class="menu menu-horizontal px-1 text-xl text-white">
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <!-- Dropdown Contenido -->
+                            <li class="dropdown dropdown-hover">
+                                <a class="btn btn-ghost normal-case text-xl text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contenido
+                                </a>
+                                <ul class="dropdown-content menu p-2 bg-neutral shadow-lg rounded-box w-52">
+                                    <li><a asp-area="Admin" asp-controller="Bodega" class="text-white"><i class="fa-regular fa-building"></i> Bodega</a></li>
+                                    <li><a asp-area="Admin" asp-controller="Categoria" class="text-white"><i class="fa-solid fa-layer-group"></i> Categoria</a></li>
+                                    <li><a asp-area="Admin" asp-controller="Marca" class="text-white"><i class="bi bi-tags"></i> Marca</a></li>
+                                    <li><a asp-area="Admin" asp-controller="Producto" class="text-white"><i class="fa-brands fa-product-hunt"></i> Producto</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown Análisis de Datos -->
+                            <li class="dropdown dropdown-hover">
+                                <a class="btn btn-ghost normal-case text-xl text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Analisis de Datos
+                                </a>
+                                <ul class="dropdown-content menu p-2 bg-neutral shadow-lg rounded-box w-52">
+                                    <li>
+                                        <a asp-area="Inventario" asp-controller="Carrito" asp-action="PedidosConfirmados" class="text-white"><i class="fa-solid fa-list"></i> PedidosConfirmados</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+
+                    <!-- Login Partial -->
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @*agregamo la refeerencia a la visita parcial notificacion*@
+            <partial name="~/Views/Shared/_Notificaciones.cshtml" />
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - ProyectoInventarios - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

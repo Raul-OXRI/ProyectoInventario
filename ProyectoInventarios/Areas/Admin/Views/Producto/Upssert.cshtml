@@ -1,0 +1,183 @@
+﻿@model ProyectoInventarios_Modelos.ViewModels.ProductoVM
+@using ProyectoInventarios_Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear producto";
+    // Construye la URL de la imagen en el backend
+    string imagenUrl = Model.MProducto.Id != 0 && !string.IsNullOrEmpty(Model.MProducto.ImagenUrl)
+        ? Url.Content($"{DefinicionesEstaticas.ImagenRuta}/{Model.MProducto.ImagenUrl}")
+        : null;
+}
+
+<form method="post" enctype="multipart/form-data">
+    @if (Model.MProducto.Id != 0)
+    {
+        titulo = "Editar producto";
+        <input asp-for="MProducto.Id" hidden />
+        <input asp-for="MProducto.ImagenUrl" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <div class="col-8">
+                <h2 class="text-4xl font-bold text-[#0B0B0D] bg-[#85E6C0] p-4 rounded"> @titulo</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Número de Serie</label>
+                            <input asp-for="MProducto.NumeroSerie" class="form-control" />
+                            <span asp-validation-for="MProducto.NumeroSerie" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Descripción</label>
+                            <input asp-for="MProducto.Descripcion" class="form-control" />
+                            <span asp-validation-for="MProducto.Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Costo</label>
+                            <input asp-for="MProducto.Costo" class="form-control" />
+                            <span asp-validation-for="MProducto.Costo" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Precio</label>
+                            <input asp-for="MProducto.Precio" class="form-control" />
+                            <span asp-validation-for="MProducto.Precio" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Imagen -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Imagen</label>
+                            <input type="file" accept="image/png, image/gif, image/jpeg" name="files" id="imagenId" class="form-control" />
+                            <span asp-validation-for="MProducto.ImagenUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Selectores -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Bodega</label>
+                            <select asp-for="MProducto.BodegaId" asp-items="@Model.BodegaLista" class="form-select">
+                                <option disabled selected>Seleccione una categoría</option>
+                            </select>
+                            <span asp-validation-for="MProducto.BodegaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Producto</label>
+                            <select asp-for="MProducto.CategoriaId" asp-items="@Model.CategoriaLista" class="form-select">
+                                <option disabled selected>Seleccione una categoría</option>
+                            </select>
+                            <span asp-validation-for="MProducto.CategoriaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Marca</label>
+                            <select asp-for="MProducto.MarcaId" asp-items="@Model.MarcaLista" class="form-select">
+                                <option disabled selected>Seleccione una marca</option>
+                            </select>
+                            <span asp-validation-for="MProducto.MarcaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Producto Padre</label>
+                            <select asp-for="MProducto.PadreId" asp-items="@Model.Padrelista" class="form-select">
+                                <option disabled selected>Seleccione un producto padre</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2 mt-2">
+                        <div class="form-group col-md-6">
+                            <label>Estado</label>
+                            <select asp-for="MProducto.Estado" class="form-select">
+                                <option value="true">Activado</option>
+                                <option value="false">Inactivo</option>
+                            </select>
+                            <span asp-validation-for="MProducto.Estado" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.MProducto.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarRegresar" model="Model.MProducto.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" onclick="return validarImagen()" class="btn btn-primary">
+                                <i class="fa-solid fa-pen-to-square"></i> Crear
+                            </button>
+                            <a asp-action="Index" class="btn btn-success">
+                                <i class="fa-solid fa-arrow-left"></i> Regresar
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <!--Model.MProducto.Id != 0-->
+                @if (imagenUrl != null)
+                {
+                    <!--<img src="DefinicionesEstaticas.ImagenRuta@Model.MProducto.ImagenUrl" width="100%" style="border-radius:5px; border: 1px solid #bbb;" />-->
+                    <img src="@imagenUrl" width="100%" style="border-radius:5px; border: 1px solid #bbb;" />
+                }
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function validarImagen() {
+            if (document.getElementById("imagenId").value == "") {
+                swal("Error", "Seleccione una imagen", "error");
+                return false;
+                    }
+            return true;
+                }
+    </script>
+    <!--<script>
+        function validarImagen() {
+            const imagenInput = document.getElementById("imagenId");
+            if (imagenInput.value == "") {
+                swal("Error", "Seleccione una imagen", "error");
+                return false;
+            }
+
+            const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
+            if (!allowedExtensions.exec(imagenInput.value)) {
+                swal("Error", "Por favor seleccione un archivo de imagen válido (jpg, jpeg, png, gif)", "error");
+                imagenInput.value = "";
+                return false;
+            }
+
+            return true;
+        }
+    </script>-->
+}

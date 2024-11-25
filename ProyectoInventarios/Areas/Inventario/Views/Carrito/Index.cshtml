@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProyectoInventarios_Modelos.ViewsModels.MCarrito>
+
+@{
+    ViewData["Title"] = "Carrito de Compras";
+}
+
+<h2 class="text-4xl font-bold text-[#0B0B0D] bg-[#85E6C0] p-4 rounded mb-4">Carrito de Compras</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table w-full border border-gray-300 my-5">
+        <thead class="bg-gray-800 text-white">
+            <tr>
+                <th class="px-4 py-2 ">Producto</th>
+                <th class="px-4 py-2 ">Cantidad</th>
+                <th class="px-4 py-2 ">Precio</th>
+                <th class="px-4 py-2 ">Total</th>
+                <th class="px-4 py-2 ">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Where(c => !c.Confirmacion)) // Filtrar pedidos no confirmados
+            {
+                <tr class="border-b">
+                    <td class="px-4 py-2">@item.Producto?.Descripcion</td>
+                    <td class="px-4 py-2">@item.Cantidad</td>
+                    <td class="px-4 py-2">Q. @item.Precio.ToString("0.00")</td>
+                    <td class="px-4 py-2">Q. @item.Total.ToString("0.00")</td>
+                    <td class="px-4 py-2">
+                        <form asp-controller="Carrito" asp-action="EliminarDelCarrito" method="post" class="inline">
+                            <input type="hidden" name="productoId" value="@item.ProductoId" />
+                            <button type="submit" class="btn btn-error btn-sm">
+                                
+                                <i class="fa-solid fa-delete-left"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-right mt-4">
+        <h4 class="text-lg font-semibold">
+            Total:
+            <strong class="text-green-700">
+                Q. @Model.Where(c => !c.Confirmacion).Sum(m => m.Precio * m.Cantidad).ToString("0.00")
+            </strong>
+        </h4>
+
+        <form asp-controller="Carrito" asp-action="ConfirmarPedido" method="post" class="mt-2">
+            <button type="submit" class="btn bg-[#6BB39B] hover:bg-[#85E6C0] text-white text-sm py-2 px-4 rounded">
+                Confirmar Pedido
+            </button>
+        </form>
+    </div>
+}
+else
+{
+    <div class="bg-[#F7F4E8] text-[#0B0B0D] p-4 rounded shadow-lg mt-4">
+        <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12c0-4.418-3.582-8-8-8S5 7.582 5 12s3.582 8 8 8 8-3.582 8-8z"></path>
+            </svg>
+            <span>No hay productos en el carrito.</span>
+        </div>
+    </div>
+}

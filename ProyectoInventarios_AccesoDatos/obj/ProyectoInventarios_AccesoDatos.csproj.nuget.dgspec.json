@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_AccesoDatos\\ProyectoInventarios_AccesoDatos.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_AccesoDatos\\ProyectoInventarios_AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_AccesoDatos\\ProyectoInventarios_AccesoDatos.csproj",
+        "projectName": "ProyectoInventarios_AccesoDatos",
+        "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_AccesoDatos\\ProyectoInventarios_AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\ProyectoInventarios_Modelos.csproj": {
+                "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\ProyectoInventarios_Modelos.csproj"
+              },
+              "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj": {
+                "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\ProyectoInventarios_Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\ProyectoInventarios_Modelos.csproj",
+        "projectName": "ProyectoInventarios_Modelos",
+        "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\ProyectoInventarios_Modelos.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj": {
+                "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj",
+        "projectName": "ProyectoInventarios_Utilidades",
+        "projectPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\ProyectoInventarios_Utilidades.csproj",
+        "packagesPath": "C:\\Users\\joseb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joseb\\Desktop\\proyetcoNetcore-carit_de compras\\proyetcoNetcore-master\\ProyectoInventarios_Utilidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

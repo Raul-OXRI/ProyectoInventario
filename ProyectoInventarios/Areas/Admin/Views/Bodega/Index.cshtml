@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row flex justify-between items-center">
+    <div class="col-lg-6">
+        <h1 class="text-4xl font-bold text-[#0B0B0D] bg-[#85E6C0] p-4 rounded">
+            Lista de Bodegas
+        </h1>
+    </div>
+    
+    <div class="col-lg-6">
+        <a class="bg-[#6BB39B] hover:bg-[#85E6C0] text-white font-semibold py-2 px-4 rounded inline-block" asp-action="Upssert">  Crear nueva Bodega</a>
+    </div>
+</div>
+<br />
+<div class="table-responsive">
+    <table id="tblDatos" class="table table-hover">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/js/bodega.js"></script>
+}

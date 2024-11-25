@@ -1,0 +1,33 @@
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.deps.json
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfoInputs.cache
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfo.cs
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\refint\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\source\repos\ProyectoInventarios\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ref\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.deps.json
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfoInputs.cache
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfo.cs
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\refint\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\Desktop\proyetcoNetcore-master\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ref\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.deps.json
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\bin\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfoInputs.cache
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.AssemblyInfo.cs
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\refint\ProyectoInventarios_Utilidades.dll
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ProyectoInventarios_Utilidades.pdb
+C:\Users\joseb\Desktop\proyetcoNetcore-carit_de compras\proyetcoNetcore-master\ProyectoInventarios_Utilidades\obj\Debug\net8.0\ref\ProyectoInventarios_Utilidades.dll

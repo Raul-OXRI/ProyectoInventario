@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ProyectoInventarios_Modelos.ViewsModels.MCarrito>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        h1 { text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Historial de Compras Confirmadas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto ID</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Fecha Agregado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pedido in Model)
+            {
+                <tr>
+                    <td>@pedido.ProductoId</td>
+                    <td>@pedido.Cantidad</td>
+                    <td>@pedido.Precio</td>
+                    <td>@pedido.FechaAgregado</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

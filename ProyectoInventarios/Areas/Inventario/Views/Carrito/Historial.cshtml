@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ProyectoInventarios_Modelos.ViewModels.PedidoHistorialViewModel>
+
+@{
+    ViewData["Title"] = "Pedidos Confirmados";
+}
+
+<h2>Pedidos Confirmados</h2>
+
+@if (Model != null && Model.Any())
+{
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre Usuario</th>
+                    <th>Total Pedidos</th>
+                    <th>Total Precio</th>
+                    <th>Último Pedido</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var pedido in Model)
+            {
+                    <tr>
+                        <td>@pedido.NombreUsuario</td>
+                        <td>@pedido.TotalPedidos</td>
+                        <td>Q. @pedido.TotalPrecio.ToString("0.00")</td>
+                        <td>@pedido.UltimoPedido.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        <a asp-action="GenerarPdfPorUsuario" asp-route-usuarioId="@pedido.UsuarioId" class="btn btn-primary">
+                            Descargar PDF
+                        </a>
+                    </td>
+                    </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <div class="alert alert-warning" role="alert">
+            No hay pedidos confirmados.
+        </div>
+}

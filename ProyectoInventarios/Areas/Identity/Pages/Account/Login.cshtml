@@ -1,0 +1,65 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="flex items-center justify-center min-h-screen bg-gray-200">
+    <section class="bg-neutral p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-4xl font-bold text-[#6BB39B] mb-6 text-center" style="font-family: 'Quicksand', sans-serif;">
+            @ViewData["Title"]
+        </h1>
+
+        <form id="account" method="post" class="space-y-6">
+            <div asp-validation-summary="ModelOnly" class="text-red-600" role="alert"></div>
+
+            <!-- Email Input -->
+            <div class="form-control bg-neutral">
+                <label asp-for="Input.Email" class="label text-[#6BB39B] font-semibold">Email</label>
+                <input asp-for="Input.Email"
+                       class="input bg-[#F7F4E8] text-[#0B0B0D] w-full focus:ring-2 focus:ring-[#6BB39B] outline-none"
+                       autocomplete="username" placeholder="name@example.com" />
+                <span asp-validation-for="Input.Email" class="text-red-600 text-sm"></span>
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-control bg-neutral">
+                <label asp-for="Input.Password" class="label text-[#6BB39B] font-semibold">Password</label>
+                <input asp-for="Input.Password"
+                       class="input bg-[#F7F4E8] text-[#0B0B0D] w-full focus:ring-2 focus:ring-[#6BB39B] outline-none"
+                       autocomplete="current-password" placeholder="password" />
+                <span asp-validation-for="Input.Password" class="text-red-600 text-sm"></span>
+            </div>
+
+
+            <!-- Remember Me Checkbox -->
+            <div class="flex items-center space-x-2">
+                <input class="checkbox checkbox-primary" asp-for="Input.RememberMe" />
+                <label asp-for="Input.RememberMe" class="text-[#6BB39B]">Remember me</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button id="login-submit" type="submit" class="btn bg-[#6BB39B] hover:bg-[#85E6C0] text-white w-full">Log in</button>
+            </div>
+
+            <!-- Links -->
+            <div class="text-sm text-[#0B0B0D] space-y-2">
+                <p>
+                    <a id="forgot-password" asp-page="./ForgotPassword" class="text-[#6BB39B] hover:underline">Forgot your password?</a>
+                </p>
+                <p>
+                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="text-[#6BB39B] hover:underline">Register as a new user</a>
+                </p>
+                <p>
+                    <a id="resend-confirmation" asp-page="./ResendEmailConfirmation" class="text-[#6BB39B] hover:underline">Resend email confirmation</a>
+                </p>
+            </div>
+        </form>
+    </section>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

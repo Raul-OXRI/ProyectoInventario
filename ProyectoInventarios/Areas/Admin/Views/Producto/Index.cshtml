@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-between items-center">
+    <div class="col-lg-6">
+        <h1 class="text-4xl font-bold text-[#0B0B0D] bg-[#85E6C0] p-4 rounded">Lista de Producto</h1>
+    </div>
+    <div class="col-lg-6">
+        <a class="bg-[#6BB39B] hover:bg-[#85E6C0] text-white font-semibold py-2 px-4 rounded inline-block" asp-action="Upssert"> <i class="fa-solid fa-plus"></i> Crear nueva Producto</a>
+    </div>
+</div>
+<br />
+<div class="table-responsive">
+    <table id="tblDatos" class="table table-hover">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Numero de serie</th>
+                <th>Descripcion</th>
+                <th>Categoria</th>
+                <th>Marca</th>
+                <th>Precio</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        
+    </table>
+</div>
+
+<div id="modalInventario" class="modal">
+    <div class="modal-box bg-gray-200 text-[#0B0B0D]">
+        <h3 class="font-bold text-lg text-[#0B0B0D]">Agregar Cantidad al Inventario</h3>
+        <form id="formInventario" class="space-y-4 mt-4">
+            <input type="hidden" id="productoId" name="productoId">
+            <div class="form-control">
+                <label for="cantidad" class="label">
+                    <span class="label-text text-[#0B0B0D]">Cantidad</span>
+                </label>
+                <input type="number" id="cantidad" name="cantidad" required
+                       class="input input-bordered w-full text-[#0B0B0D] bg-[#F7F4E8] border-[#6BB39B]"
+                       placeholder="Ingrese la cantidad">
+            </div>
+        </form>
+        <div class="modal-action">
+            <button type="button"
+                    class="btn bg-[#DAF3EA] hover:bg-[#6BB39B] text-[#0B0B0D]"
+                    onclick="CerrarModal()">
+                Cerrar
+            </button>
+            <button type="button"
+                    class="btn bg-[#6BB39B] hover:bg-[#85E6C0] text-white"
+                    onclick="GuardarCantidad()">
+                Guardar
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts{
+    <script src="~/js/producto.js"></script>
+}

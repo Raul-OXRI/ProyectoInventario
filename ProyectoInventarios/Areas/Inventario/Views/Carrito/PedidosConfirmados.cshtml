@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ProyectoInventarios_Modelos.ViewModels.PedidoHistorialViewModel>
+@{
+    ViewData["Title"] = "PedidosConfirmados";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+<div class="row flex justify-between items-center">
+    <div class="col-lg-6">
+        <h1 class="text-4xl font-bold text-[#0B0B0D] bg-[#85E6C0] p-4 rounded">
+            Lista de clientes
+        </h1>
+    </div>
+</div>
+
+
+<table class="table w-full border border-gray-300 my-5">
+    <thead class="bg-gray-800 text-white">
+        <tr>
+            <th class="px-4 py-2">Nombre Usuario</th>
+            <th class="px-4 py-2">Total Pedidos</th>
+            <th class="px-4 py-2">Total Precio</th>
+            <th class="px-4 py-2">Último Pedido</th>
+            <th class="px-4 py-2">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model)
+        {
+            <tr class="hover:bg-gray-100">
+                <td class="border px-4 py-2">@pedido.NombreUsuario</td>
+                <td class="border px-4 py-2">@pedido.TotalPedidos</td>
+                <td class="border px-4 py-2">Q. @pedido.TotalPrecio.ToString("0.00")</td>
+                <td class="border px-4 py-2">@pedido.UltimoPedido.ToString("dd/MM/yyyy HH:mm")</td>
+                <td class="border px-4 py-2">
+                    <a asp-action="GenerarPdfPorUsuario" asp-route-usuarioId="@pedido.UsuarioId" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
